@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "seamonkey"
+version = "0.1.0"
+description = "simulating seamonkeys because i love them"
+authors = ["Issy Codron <ic302@exeter.ac.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.7.1"
+pandas = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

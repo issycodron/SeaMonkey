@@ -10,7 +10,7 @@ if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
 
 
-my_tank = Tank("My Crevice", 0.1, 0.4)
+my_tank = Tank("My Crevice", 1, 2)
 my_tank.feed_monkeys(1000)
 print(my_tank)
 
